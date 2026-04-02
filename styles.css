@@ -38,3 +38,23 @@
 .g-col-4:hover {
   transform: translateY(-5px);
 }
+/* 모바일 화면 (태블릿 포함 992px 미만) */
+@media (max-width: 991.98px) {
+  /* 그리드 시스템을 무시하고 세로로 쌓이게 함 */
+  .grid {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  /* 각 항목의 폭을 100%로 설정 */
+  .grid > [class^="g-col-"] {
+    width: 100% !important;
+    grid-column: auto !important; /* Quarto 그리드 속성 제거 */
+    margin-bottom: 20px; /* 항목 간 간격 */
+  }
+
+  /* 멤버 사진과 글을 가운데 정렬 (선택사항) */
+  .Ph.D.\ candidates .grid > .g-col-4 {
+    text-align: center;
+  }
+}
