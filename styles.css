@@ -13,6 +13,28 @@
   transition: transform 0.2s;
 }
 
+/* 모바일에서 폰트 크기 및 여백 조정 */
+@media (max-width: 768px) {
+  /* 본문 여백 확보 */
+  .quarto-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* 논문 제목 등 긴 텍스트가 화면 밖으로 나가지 않게 조절 */
+  h1, h2, h3 {
+    word-break: keep-all; /* 단어 단위로 줄바꿈 */
+    font-size: 1.5rem !important; /* 모바일용 제목 크기 */
+  }
+
+  /* 표(Table)가 있으면 가로 스크롤 허용 */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
 .g-col-4:hover {
   transform: translateY(-5px);
 }
