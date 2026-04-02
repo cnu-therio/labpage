@@ -1,60 +1,82 @@
-/* 메인 타이틀 폰트 강조 */
+/* 1. 웹사이트 기본 폰트 및 가독성 설정 */
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
 .title {
   font-weight: 800;
-  color: #1a365d; /* 신뢰감을 주는 딥 블루 */
+  color: #1a365d; /* 딥 블루 (충남대 느낌) */
+  margin-bottom: 0.5rem;
 }
 
-/* 카드 형태의 뉴스 섹션 꾸미기 */
-.g-col-4 {
-  padding: 20px;
-  border-radius: 10px;
-  background-color: #f8f9fa;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  transition: transform 0.2s;
+/* 2. 모든 그리드 항목에 회색 박스 강제 적용 (핵심 해결책) */
+/* 홈페이지 뉴스, 멤버 카드 등 .grid 안의 모든 직계 자식 요소를 박스로 만듭니다 */
+.grid > div, 
+.grid > section, 
+.grid > [class^="g-col-"] {
+  padding: 25px !important;
+  border-radius: 15px !important;
+  background-color: #f8f9fa !important; /* 회색 배경 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+  margin-bottom: 20px !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  border: 1px solid rgba(0, 0, 0, 0.03) !important;
+  display: flex;
+  flex-direction: column;
 }
 
-/* 모바일에서 폰트 크기 및 여백 조정 */
-@media (max-width: 768px) {
-  /* 본문 여백 확보 */
-  .quarto-container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  /* 논문 제목 등 긴 텍스트가 화면 밖으로 나가지 않게 조절 */
-  h1, h2, h3 {
-    word-break: keep-all; /* 단어 단위로 줄바꿈 */
-    font-size: 1.5rem !important; /* 모바일용 제목 크기 */
-  }
-
-  /* 표(Table)가 있으면 가로 스크롤 허용 */
-  table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
+/* 3. 마우스 호버 효과 (PC에서만 작동) */
+.grid > div:hover, 
+.grid > [class^="g-col-"]:hover {
+  transform: translateY(-8px);
+  background-color: #ffffff !important;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1) !important;
+  border-color: #1a365d !important;
 }
 
-.g-col-4:hover {
-  transform: translateY(-5px);
+/* 4. 이미지 스타일 (멤버 사진용) */
+.grid img {
+  border-radius: 12px; /* 약간 각진 둥근 모서리 */
+  margin-bottom: 15px;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-/* 모바일 화면 (태블릿 포함 992px 미만) */
+
+/* 5. 모바일 최적화 (991px 미만) - 세로 쌓기 강제 */
 @media (max-width: 991.98px) {
-  /* 그리드 시스템을 무시하고 세로로 쌓이게 함 */
   .grid {
     display: flex !important;
     flex-direction: column !important;
+    gap: 15px !important;
   }
 
-  /* 각 항목의 폭을 100%로 설정 */
+  .grid > div, 
+  .grid > section, 
   .grid > [class^="g-col-"] {
     width: 100% !important;
-    grid-column: auto !important; /* Quarto 그리드 속성 제거 */
-    margin-bottom: 20px; /* 항목 간 간격 */
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 20px !important; /* 모바일은 패딩 살짝 축소 */
   }
 
-  /* 멤버 사진과 글을 가운데 정렬 (선택사항) */
-  .Ph.D.\ candidates .grid > .g-col-4 {
-    text-align: center;
+  h1, h2, h3 {
+    word-break: keep-all; 
+    font-size: 1.4rem !important;
+    text-align: center; /* 모바일 제목 중앙 정렬 */
   }
+
+  /* 모바일에서 텍스트 크기 최적화 */
+  p, li {
+    font-size: 0.95rem;
+  }
+}
+
+/* 6. 특별 섹션: 멤버 페이지 텍스트 중앙 정렬 */
+/* 만약 members.qmd 상단에 #members 같은 ID가 있다면 더 정확하게 작동합니다 */
+.quarto-title-block + .grid, 
+#members .grid {
+  text-align: center;
+  align-items: center;
 }
