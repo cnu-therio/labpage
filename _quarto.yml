@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Theriogenology Lab"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: professor.qmd
+        text: Principal Investigator
+      - href: members.qmd
+        text: Members
+      - href: alumni.qmd
+        text: Alumni
+      - href: publications.qmd
+        text: Publications
+      - href: research.qmd
+        text: Research
+
+format:
+  html:
+    css: styles.css
+    theme: cosmo
+    toc: true
+

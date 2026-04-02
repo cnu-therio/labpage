@@ -1,0 +1,61 @@
+---
+title: "Research"
+subtitle: "Advancing Theriogenology through Embryology, Andrology, and Regenerative Medicine"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+---
+
+우리 연구실은 가축 및 반려동물의 번식 효율 향상과 첨단 생명공학 기술을 이용한 치료 모델 개발을 목표로 합니다.
+
+## 🔬 Main Research Areas
+
+### 1. Embryology & In Vitro Development
+배아의 체외 배양 시스템 최적화와 발달 효율 향상을 위한 다양한 인자의 역할을 연구합니다.
+
+**주요 연구 성과**
+
+* **Fetal Bovine Serum (FBS) Essentiality:** 체외 배양 연장 시 돼지 배반포의 생존력 유지를 위한 FBS의 필수성 규명.
+
+* **Supplement Optimization:** Niacin 및 Interleukin-7(IL-7) 처리가 돼지 배아의 발달 능력 및 품질에 미치는 영향 분석.
+
+### 2. Advanced Andrology & Cryopreservation
+정자의 동결 보존 기술과 항산화제를 이용한 정자 기능 강화 연구를 수행합니다.
+
+**주요 연구 성과**
+
+* **Semen Cryopreservation:** MnTBAP, Myo-Inositol, $\kappa$-Carrageenan 등을 활용한 돼지 정자의 동결 생존율 향상.
+
+* **Alternative Extenders:** 개 정자 동결 시 난황 대체재로서 합성 콜레스테롤(Synthechol)의 효능 검증.
+
+### 3. Organoids and CRISPR/Cas9
+수의학적 관점에서 오가노이드 기술과 유전자 편집 기술을 통한 재생의학을 연구하고 있습니다.
+
+
+---
+
+## 📚 Selected Publications
+
+::: {.callout-note appearance="minimal"}
+최신 연구 성과를 확인하실 수 있습니다. (2022 - 2026)
+:::
+
+### 2026
+* **Lee S**, Yu IJ, **Jeon Y**. Fetal Bovine Serum Is Essential for Maintaining Viability of Porcine Blastocysts During Extended In Vitro Culture. *Reprod Domest Anim*. 2026.
+
+### 2024
+* **Lee S**, Lee SE, Han JI, Lee SC, **Jeon Y**. Preliminary research on tailored fluid therapy in pigs: comparing customized ionic solutions with Hartmann's solution. *BMC Vet Res*. 2024.
+* **Kim E**, Yu IJ, Lee J, **Jeon Y**. Effects of MnTBAP on Porcine Semen Cryopreservation and Capacitation. *Antioxidants (Basel)*. 2024.
+* **Almubarak A**, Kim E, Yu IJ, Park H, **Jeon Y**. The Effect of κ-Carrageenan on Porcine Sperm Cryo-Survival. *Animals (Basel)*. 2024.
+* **Lee S**, Lee SC, **Jeon Y**. Analysis of blood composition by porcine breeding cycle. *Vet Med Sci*. 2024.
+
+### 2023
+* **Almubarak A**, Osman R, Lee J, Yu IJ, **Jeon Y**. Effects of niacin supplementation during in vitro culture on the developmental competence of porcine embryos. *Reprod Domest Anim*. 2023.
+* **Osman R**, Lee S, Almubarak A, Han JI, Yu IJ, **Jeon Y**. Antioxidant Effects of Myo-Inositol Improve the Function and Fertility of Cryopreserved Boar Semen. *Antioxidants (Basel)*. 2023.
+
+### 2022
+* **Oh D**, Choi H, Kim M, Cai L, Lee J, Jawad A, Kim S, Zheng H, Lee G, **Jeon Y**, Hyun SH. Interleukin-7 enhances in vitro development and blastocyst quality in porcine parthenogenetic embryos. *Front Vet Sci*. 2022.
+* **Talha NAH**, **Jeon Y**, Yu IJ. Effect of synthetic cholesterol (Synthechol) supplementation in an egg yolk-free extender on dog sperm cryopreservation. *Cryo Letters*. 2022.
+
+---

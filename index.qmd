@@ -1,0 +1,48 @@
+---
+title: "Lab. of Theriogenology"
+subtitle: "Chungnam National University, College of Veterinary Medicine"
+image: images/cnu.svg
+about:
+  template: jolla
+  links:
+    - icon: envelope
+      text: Contact
+      href: mailto:ybjeon@cnu.ac.kr
+---
+
+
+## 🧪 Welcome to our Lab
+충남대학교 수의산과학 실험실은 가축 및 반려동물의 **번식 생리, 배아 발달, 그리고 첨단 재생 의학**을 연구합니다. 
+
+또한 최신 유전자 편집 기술(CRISPR/Cas9)과 생물정보학 분석, 오가노이드와 줄기세포 기술을 결합하여 수의학의 새로운 지평을 열어가고 있습니다.
+
+---
+
+## 📢 Recent News
+
+::: {.grid}
+
+::: {.g-col-4}
+### [New Publication]
+**2026.03** *Reproductive Domestic Animals*에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.
+:::
+
+::: {.g-col-4}
+### [Lab Life]
+**2026.02** 이성주, 김은지(이상 박사), 박성수(석사) 졸업생을 배출했습니다.
+:::
+
+::: {.g-col-4}
+### [Recruiting]
+**Ongoing** 우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다.
+:::
+
+:::
+
+---
+
+## 🧬 Key Focus
+- **Advanced Embryology:** In vitro production (IVP) of embryos.
+- **Gene Therapy:** CRISPR/Cas9 systems for regenerative medicine.
+- **Bioinformatics:** scRNA-seq analysis in reproductive organs.
+- **Organoids:** 3D culture system for mechanistic studies.

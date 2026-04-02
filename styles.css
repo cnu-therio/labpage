@@ -1,0 +1,18 @@
+/* 메인 타이틀 폰트 강조 */
+.title {
+  font-weight: 800;
+  color: #1a365d; /* 신뢰감을 주는 딥 블루 */
+}
+
+/* 카드 형태의 뉴스 섹션 꾸미기 */
+.g-col-4 {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.g-col-4:hover {
+  transform: translateY(-5px);
+}
