@@ -1,9 +1,9 @@
 # Members
 
-## Ph.D. Candidates
+## Ph.D. Students
 
 ::: {.grid}
-::: {.g-col-4}
+::: {.g-col-12 .g-col-md-4}
 ![](images/sungsoo.jpg){width="150px"}
 
 **박성수 (Sungsoo Park)** 
