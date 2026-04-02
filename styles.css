@@ -6,50 +6,55 @@ body {
 
 .title {
   font-weight: 800;
-  color: #1a365d; /* 딥 블루 (충남대 느낌) */
+  color: #1a365d; 
   margin-bottom: 0.5rem;
 }
 
-/* 2. 모든 그리드 항목에 회색 박스 강제 적용 (핵심 해결책) */
-/* 홈페이지 뉴스, 멤버 카드 등 .grid 안의 모든 직계 자식 요소를 박스로 만듭니다 */
+/* 2. 모든 그리드 항목 박스 디자인 (Recent News & Members 공통) */
+/* .grid 내부의 모든 직접적인 자식 요소(div, section, g-col)를 타겟팅합니다 */
 .grid > div, 
 .grid > section, 
 .grid > [class^="g-col-"] {
   padding: 25px !important;
   border-radius: 15px !important;
-  background-color: #f8f9fa !important; /* 회색 배경 */
+  background-color: #f8f9fa !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
   margin-bottom: 20px !important;
+  /* 애니메이션 설정: transition에 !important를 붙여야 호버 시 부드럽게 움직입니다 */
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
   border: 1px solid rgba(0, 0, 0, 0.03) !important;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
-/* 3. 마우스 호버 효과 (PC에서만 작동) */
+/* 3. 마우스 호버 효과 (Recent News 섹션 해결책) */
+/* 어떤 태그로 렌더링되든 .grid의 자식이라면 무조건 호버가 먹히도록 설정 */
 .grid > div:hover, 
+.grid > section:hover, 
 .grid > [class^="g-col-"]:hover {
-  transform: translateY(-8px);
+  transform: translateY(-10px) !important; /* 위로 더 확실히 들리게 조정 */
   background-color: #ffffff !important;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12) !important;
   border-color: #1a365d !important;
+  z-index: 5;
 }
 
-/* 4. 이미지 스타일 (멤버 사진용) */
+/* 4. 이미지 스타일 */
 .grid img {
-  border-radius: 12px; /* 약간 각진 둥근 모서리 */
+  border-radius: 12px;
   margin-bottom: 15px;
   object-fit: cover;
   border: 2px solid #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* 5. 모바일 최적화 (991px 미만) - 세로 쌓기 강제 */
+/* 5. 모바일 최적화 (991px 미만) */
 @media (max-width: 991.98px) {
   .grid {
     display: flex !important;
     flex-direction: column !important;
-    gap: 15px !important;
+    gap: 10px !important;
   }
 
   .grid > div, 
@@ -58,23 +63,19 @@ body {
     width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    padding: 20px !important; /* 모바일은 패딩 살짝 축소 */
+    padding: 20px !important;
+    /* 모바일에서는 호버 효과 제거 (터치 시 어색함 방지) */
+    transform: none !important;
   }
 
   h1, h2, h3 {
     word-break: keep-all; 
     font-size: 1.4rem !important;
-    text-align: center; /* 모바일 제목 중앙 정렬 */
-  }
-
-  /* 모바일에서 텍스트 크기 최적화 */
-  p, li {
-    font-size: 0.95rem;
+    text-align: center;
   }
 }
 
-/* 6. 특별 섹션: 멤버 페이지 텍스트 중앙 정렬 */
-/* 만약 members.qmd 상단에 #members 같은 ID가 있다면 더 정확하게 작동합니다 */
+/* 6. 멤버 페이지 중앙 정렬 유지 */
 .quarto-title-block + .grid, 
 #members .grid {
   text-align: center;
