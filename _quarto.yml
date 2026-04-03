@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - cursor-swapper.js
+    - images/
 
 website:
   title: "Theriogenology Lab"
@@ -23,5 +26,8 @@ format:
   html:
     css: styles.css
     theme: cosmo
+    include-in-header:
+      text: |
+        <script src="cursor-swapper.js"></script>
     toc: true
 

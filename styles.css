@@ -81,3 +81,23 @@ body {
   text-align: center;
   align-items: center;
 }
+
+/* 초기 커서 설정 */
+body {
+  cursor: url('images/cursor_1.png'), auto;
+}
+
+/* 마우스를 올렸을 때도 커서가 유지되도록 설정 */
+a:hover, button:hover, .grid > div:hover {
+  cursor: inherit; /* body의 커서 설정을 그대로 따름 */
+}
+
+/* 교수님 소개 페이지 리스트 간격 조정 */
+.g-col-12 ul {
+  padding-left: 1.2rem;
+  margin-top: 10px;
+}
+
+.g-col-12 li {
+  margin-bottom: 8px; /* 항목 간 간격 확보 */
+}
