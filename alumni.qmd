@@ -6,7 +6,7 @@
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-6}
-### **  Areeg Almubarak **
+### **Areeg Almubarak**
 - **학위**: 수의학박사 (2022)
 - **현재**:  Sudan University of Science and Technology: Khartoum, SD
 :::
