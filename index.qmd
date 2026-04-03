@@ -35,6 +35,7 @@ about:
 ::: {.g-col-12 .g-col-md-4}
 ### [Recruiting]
 **Ongoing** 우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다.
+[**📍 오시는 길 & 연락처 확인하기**](contact.qmd){.stretched-link .btn .btn-outline-primary .btn-sm style="margin-top: 15px;"}
 :::
 
 :::

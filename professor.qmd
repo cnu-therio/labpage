@@ -5,8 +5,9 @@
 ::: {.g-col-12 .g-col-md-4 .text-center}
 ![](images/professor.jpg){width="200px" .rounded-3}
 
-### 전유별 (D.V.M., Ph.D.)
-**Professor of Veterinary Theriogenology**
+### 전유별
+(D.V.M., Ph.D.)\
+**Professor of Veterinary Theriogenology**\
 충남대학교 수의과대학
 :::
 
