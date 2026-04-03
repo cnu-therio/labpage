@@ -14,13 +14,6 @@
     "text": "충남대학교 수의산과학 실험실은 가축 및 반려동물의 번식 생리, 배아 발달, 그리고 첨단 재생 의학을 연구합니다.\n또한 최신 유전자 편집 기술(CRISPR/Cas9)과 생물정보학 분석, 오가노이드와 줄기세포 기술을 결합하여 수의학의 새로운 지평을 열어가고 있습니다."
   },
   {
-    "objectID": "index.html#recent-news",
-    "href": "index.html#recent-news",
-    "title": "Lab. of Theriogenology",
-    "section": "📢 Recent News",
-    "text": "📢 Recent News\n\n\n[New Publication]\n2026.03 Reproductive Domestic Animals에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.\n\n\n[Lab Life]\n2026.02 이성주, 김은지(이상 박사), 박성수(석사) 졸업생을 배출했습니다.\n\n\n[Recruiting]\nOngoing 우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다. 📍 오시는 길 & 연락처 확인하기"
-  },
-  {
     "objectID": "index.html#key-focus",
     "href": "index.html#key-focus",
     "title": "Lab. of Theriogenology",
@@ -28,11 +21,39 @@
     "text": "🧬 Key Focus\n\nAdvanced Embryology: In vitro production (IVP) of embryos.\nGene Therapy: CRISPR/Cas9 systems for regenerative medicine.\nBioinformatics: scRNA-seq analysis in reproductive organs.\nOrganoids: 3D culture system for mechanistic studies."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact & Location",
+    "objectID": "index.html#strategic-partnership",
+    "href": "index.html#strategic-partnership",
+    "title": "Lab. of Theriogenology",
+    "section": "🤝 Strategic Partnership",
+    "text": "🤝 Strategic Partnership\n우리 실험실은 충북대학교 약학대학 분자유전학 연구실(CBNU MGL)과 긴밀한 공동 연구 체계를 구축하고 있습니다.\n\n\nCNU Theriogenology\n\nFocus: 배아 발달 기전, 재생 의학, 줄기세포\nStrength: 배아 조작 및 배양 기술\n\n\n\nCBNU MGL\n\nFocus: 줄기세포, 후성 유전학, 발현 조절\nStrength: 정밀한 분자 생물학적 분석\n\nMGL 홈페이지 방문하기\n\n\n\nSynergy: 두 실험실은 정기적인 합동 세미나와 공동 프로젝트를 통해 생명의 근본적인 원리를 규명하고, 차세대 유전자치료 기술을 개발하는 데 앞장서고 있습니다."
+  },
+  {
+    "objectID": "index.html#recent-news",
+    "href": "index.html#recent-news",
+    "title": "Lab. of Theriogenology",
+    "section": "📢 Recent News",
+    "text": "📢 Recent News\n\n\n[New Publication]\n2026.03 Reproductive Domestic Animals에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.\n\n\n[Lab Life]\n2026.02 김은지, 이성주(이상 박사), 박성수(석사) 졸업생을 배출했습니다.\n\n\n[Recruiting]\nOngoing 우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다. 📍 오시는 길 & 연락처 확인하기"
+  },
+  {
+    "objectID": "alumni.html",
+    "href": "alumni.html",
+    "title": "Alumni",
     "section": "",
-    "text": "Contact & Location\n충남대학교 수의산과학 실험실 방문을 환영합니다.\n\n\n\n📍 오시는 길\n충남대학교 수의과대학 부속동물병원 (N13-2)\n주소\n(34134) 대전광역시 유성구 대학로 99, 충남대학교 수의과대학 부속동물병원\n연구실\n동물병원 4층 414호 (Lab)\n동물병원 4층 405호 (PI Office)\n주차\n대학 내 유료 주차 가능\n\n\n✉️ 연락처\n\nPI: 전유별 교수 (ybjeon@cnu.ac.kr)\n실험실장: 박성수 (sungspark@o.cnu.ac.kr)\n\n\n\n\n🗺️ 지도"
+    "text": "졸업 후에도 각자의 위치에서 수의산과학 및 관련 분야의 발전을 위해 힘쓰고 있는 우리 실험실 졸업생들을 소개합니다.\n\n\n\n\n\n\n학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미국 XX대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교\n\n\n\n\n\n\n\n\n\n\n\n학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
+  },
+  {
+    "objectID": "alumni.html#ph.d.-alumni",
+    "href": "alumni.html#ph.d.-alumni",
+    "title": "Alumni",
+    "section": "",
+    "text": "학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미국 XX대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교"
+  },
+  {
+    "objectID": "alumni.html#m.s.-alumni",
+    "href": "alumni.html#m.s.-alumni",
+    "title": "Alumni",
+    "section": "",
+    "text": "학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
   },
   {
     "objectID": "research.html",
@@ -91,24 +112,10 @@
     "text": "Principal Investigator\n\n\n\n\n전유별\n(D.V.M., Ph.D.)\nProfessor of Veterinary Theriogenology\n충남대학교 수의과대학\n\n\n\n\n🎓 학력\n\n박사: 충북대학교 수의과대학 (2011. 3. - 2014. 2.)\n석사: 충북대학교 수의과대학 (2009. 3. - 2011. 2.)\n학사: 충북대학교 수의과대학 (2003. 3. - 2009. 2.)\n\n\n\n🔬 관심분야\n\n보조생식술\n동물 복제\n형질전환동물\n줄기세포\n\n\n\n💼 주요경력\n\n2025. 3. - 현재 충남대학교 수의과대학 수의산과학 부교수\n2017. 9. - 2025. 2. 전북대학교 수의과대학 수의산과학 조교수, 부교수\n2016. 9. - 2017. 8. 미국 존스홉킨스 의대 세포공학연구소 박사 후 연구원\n2014. 3. - 2016. 7. 수암 생명공학 연구원 전문연구요원 및 연구원\n2009. 2. 수의사면허증 (농림부)"
   },
   {
-    "objectID": "alumni.html",
-    "href": "alumni.html",
-    "title": "Alumni",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact & Location",
     "section": "",
-    "text": "졸업 후에도 각자의 위치에서 수의산과학 및 관련 분야의 발전을 위해 힘쓰고 있는 우리 실험실 졸업생들을 소개합니다.\n\n\n\n\n\n\n학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미국 XX대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교\n\n\n\n\n\n\n\n\n\n\n\n학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
-  },
-  {
-    "objectID": "alumni.html#ph.d.-alumni",
-    "href": "alumni.html#ph.d.-alumni",
-    "title": "Alumni",
-    "section": "",
-    "text": "학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미국 XX대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교"
-  },
-  {
-    "objectID": "alumni.html#m.s.-alumni",
-    "href": "alumni.html#m.s.-alumni",
-    "title": "Alumni",
-    "section": "",
-    "text": "학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
+    "text": "Contact & Location\n충남대학교 수의산과학 실험실 방문을 환영합니다.\n\n\n\n📍 오시는 길\n충남대학교 수의과대학 부속동물병원 (N13-2)\n주소\n(34134) 대전광역시 유성구 대학로 99, 충남대학교 수의과대학 부속동물병원\n연구실\n동물병원 4층 414호 (Lab)\n동물병원 4층 405호 (PI Office)\n주차\n대학 내 유료 주차 가능\n\n\n✉️ 연락처\n\nPI: 전유별 교수 (ybjeon@cnu.ac.kr)\n실험실장: 박성수 (sungspark@o.cnu.ac.kr)\n\n\n\n\n🗺️ 지도\n\n\n\n\n\n🔗 Partner Laboratory\n\nChungbuk National University - Molecular Genetics Lab (MGL)"
   }
 ]

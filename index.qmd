@@ -18,6 +18,40 @@ about:
 
 ---
 
+## 🧬 Key Focus
+- **Advanced Embryology:** In vitro production (IVP) of embryos.
+- **Gene Therapy:** CRISPR/Cas9 systems for regenerative medicine.
+- **Bioinformatics:** scRNA-seq analysis in reproductive organs.
+- **Organoids:** 3D culture system for mechanistic studies.
+
+---
+
+## 🤝 Strategic Partnership
+
+우리 실험실은 **충북대학교 약학대학 분자유전학 연구실(CBNU MGL)**과 긴밀한 공동 연구 체계를 구축하고 있습니다.
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 .NewsCard}
+#### **CNU Theriogenology**
+- **Focus**: 배아 발달 기전, 재생 의학, 줄기세포
+- **Strength**: 배아 조작 및 배양 기술
+:::
+
+::: {.g-col-12 .g-col-md-6 .NewsCard}
+#### **CBNU MGL**
+- **Focus**: 줄기세포, 후성 유전학, 발현 조절
+- **Strength**: 정밀한 분자 생물학적 분석
+
+[**MGL 홈페이지 방문하기**](https://sites.google.com/view/cbnumgl/home){.stretched-link .btn .btn-outline-success .btn-sm style="margin-top: 15px;"}
+:::
+
+:::
+
+> **Synergy**: 두 실험실은 정기적인 합동 세미나와 공동 프로젝트를 통해 생명의 근본적인 원리를 규명하고, 차세대 유전자치료 기술을 개발하는 데 앞장서고 있습니다.
+
+---
+
 ## 📢 Recent News
 
 ::: {.grid}
@@ -29,7 +63,7 @@ about:
 
 ::: {.g-col-12 .g-col-md-4}
 ### [Lab Life]
-**2026.02** 이성주, 김은지(이상 박사), 박성수(석사) 졸업생을 배출했습니다.
+**2026.02** 김은지, 이성주(이상 박사), 박성수(석사) 졸업생을 배출했습니다.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
@@ -40,10 +74,4 @@ about:
 
 :::
 
----
 
-## 🧬 Key Focus
-- **Advanced Embryology:** In vitro production (IVP) of embryos.
-- **Gene Therapy:** CRISPR/Cas9 systems for regenerative medicine.
-- **Bioinformatics:** scRNA-seq analysis in reproductive organs.
-- **Organoids:** 3D culture system for mechanistic studies.
