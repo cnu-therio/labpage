@@ -6,11 +6,9 @@
 ::: {.g-col-12 .g-col-md-4}
 ![](images/sungsoo.jpg){width="150px"}
 
-**박성수 (Sungsoo Park)** 
-
-- Research: Gene therapy, CRISPR/Cas9, scRNA-seq, Endometrial Organoid
-
-- Email: sungspark@o.cnu.ac.kr
+**박성수 (Sungsoo Park)**\
+- D.V.M., M.S.\
+- sungspark@o.cnu.ac.kr
 :::
 
 ::: {.g-col-4}

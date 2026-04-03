@@ -14,11 +14,11 @@ format:
 ### 1. Embryology & In Vitro Development
 배아의 체외 배양 시스템 최적화와 발달 효율 향상을 위한 다양한 인자의 역할을 연구합니다.
 
-**주요 연구 성과**
+**주요 연구 성과**\
 
-* **Fetal Bovine Serum (FBS) Essentiality:** 체외 배양 연장 시 돼지 배반포의 생존력 유지를 위한 FBS의 필수성 규명.
+* **Fetal Bovine Serum Essentiality:** 체외 배양 연장 시 돼지 배반포의 생존력 유지를 위한 FBS의 필수성 규명.
 
-* **Supplement Optimization:** Niacin 및 Interleukin-7(IL-7) 처리가 돼지 배아의 발달 능력 및 품질에 미치는 영향 분석.
+* **Supplement Optimization:** Niacin 및 Interleukin-7 처리가 돼지 배아의 발달 능력 및 품질에 미치는 영향 분석.
 
 ### 2. Advanced Andrology & Cryopreservation
 정자의 동결 보존 기술과 항산화제를 이용한 정자 기능 강화 연구를 수행합니다.
@@ -55,7 +55,7 @@ format:
 * **Osman R**, Lee S, Almubarak A, Han JI, Yu IJ, **Jeon Y**. Antioxidant Effects of Myo-Inositol Improve the Function and Fertility of Cryopreserved Boar Semen. *Antioxidants (Basel)*. 2023.
 
 ### 2022
-* **Oh D**, Choi H, Kim M, Cai L, Lee J, Jawad A, Kim S, Zheng H, Lee G, **Jeon Y**, Hyun SH. Interleukin-7 enhances in vitro development and blastocyst quality in porcine parthenogenetic embryos. *Front Vet Sci*. 2022.
-* **Talha NAH**, **Jeon Y**, Yu IJ. Effect of synthetic cholesterol (Synthechol) supplementation in an egg yolk-free extender on dog sperm cryopreservation. *Cryo Letters*. 2022.
+* Oh D, Choi H, Kim M, Cai L, Lee J, Jawad A, Kim S, Zheng H, Lee G, **Jeon Y**, Hyun SH. Interleukin-7 enhances in vitro development and blastocyst quality in porcine parthenogenetic embryos. *Front Vet Sci*. 2022.
+* Talha NAH, **Jeon Y**, Yu IJ. Effect of synthetic cholesterol (Synthechol) supplementation in an egg yolk-free extender on dog sperm cryopreservation. *Cryo Letters*. 2022.
 
 ---

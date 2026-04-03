@@ -36,6 +36,8 @@ about:
 #### **CNU Theriogenology**
 - **Focus**: 배아 발달 기전, 재생 의학, 줄기세포
 - **Strength**: 배아 조작 및 배양 기술
+
+[**📍 오시는 길 & 연락처 **](contact.qmd){.stretched-link .btn .btn-outline-primary .btn-sm style="margin-top: 15px;"}
 :::
 
 ::: {.g-col-12 .g-col-md-6 .NewsCard}
@@ -43,7 +45,7 @@ about:
 - **Focus**: 줄기세포, 후성 유전학, 발현 조절
 - **Strength**: 정밀한 분자 생물학적 분석
 
-[**MGL 홈페이지 방문하기**](https://sites.google.com/view/cbnumgl/home){.stretched-link .btn .btn-outline-success .btn-sm style="margin-top: 15px;"}
+[**MGL 홈페이지**](https://sites.google.com/view/cbnumgl/home){.stretched-link .btn .btn-outline-success .btn-sm style="margin-top: 15px;"}
 :::
 
 :::
@@ -57,19 +59,20 @@ about:
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-4}
-### [New Publication]
+### New Publication
 **2026.03** *Reproductive Domestic Animals*에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### [Lab Life]
+### Lab Life
 **2026.02** 김은지, 이성주(이상 박사), 박성수(석사) 졸업생을 배출했습니다.
 :::
 
 ::: {.g-col-12 .g-col-md-4}
-### [Recruiting]
-**Ongoing** 우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다.
-[**📍 오시는 길 & 연락처 확인하기**](contact.qmd){.stretched-link .btn .btn-outline-primary .btn-sm style="margin-top: 15px;"}
+### Recruiting
+**Ongoing**\
+우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다.
+[**📍 오시는 길 & 연락처 **](contact.qmd){.stretched-link .btn .btn-outline-primary .btn-sm style="margin-top: 15px;"}
 :::
 
 :::
