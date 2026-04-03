@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "alumni.html",
+    "href": "alumni.html",
+    "title": "Alumni",
+    "section": "",
+    "text": "졸업 후에도 각자의 위치에서 수의산과학 및 관련 분야의 발전을 위해 힘쓰고 있는 우리 실험실 졸업생들을 소개합니다.\n\n\n\n\n\n\n학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미주리 주립 대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교\n\n\n\n\n\n\n\n\n\n\n\n학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
+  },
+  {
+    "objectID": "alumni.html#ph.d.-alumni",
+    "href": "alumni.html#ph.d.-alumni",
+    "title": "Alumni",
+    "section": "",
+    "text": "학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미주리 주립 대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교"
+  },
+  {
+    "objectID": "alumni.html#m.s.-alumni",
+    "href": "alumni.html#m.s.-alumni",
+    "title": "Alumni",
+    "section": "",
+    "text": "학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "최근 5년간 우리 연구실의 주요 연구 성과입니다.\n\n2026\n\nLee S, Yu IJ, Jeon Y. Fetal Bovine Serum Is Essential for Maintaining Viability of Porcine Blastocysts During Extended In Vitro Culture. Reprod Domest Anim. 2026. doi:10.1111/rda.70195\n\n\n\n2024\n\nLee S, Lee SE, Han JI, Lee SC, Jeon Y. Preliminary research on tailored fluid therapy in pigs: comparing customized ionic solutions with Hartmann’s solution. BMC Vet Res. 2024.\nKim E, Yu IJ, Lee J, Jeon Y. Effects of MnTBAP on Porcine Semen Cryopreservation and Capacitation. Antioxidants (Basel). 2024.\nAlmubarak A, Kim E, Yu IJ, Park H, Jeon Y. The Effect of κ-Carrageenan on Porcine Sperm Cryo-Survival. Animals (Basel). 2024.\nLee S, Lee SC, Jeon Y. Analysis of blood composition by porcine breeding cycle. Vet Med Sci. 2024.\n\n\n\n2023\n\nAlmubarak A, Osman R, Lee J, Yu IJ, Jeon Y. Effects of niacin supplementation during in vitro culture on the developmental competence of porcine embryos. Reprod Domest Anim. 2023.\nOsman R, Lee S, Almubarak A, Han JI, Yu IJ, Jeon Y. Antioxidant Effects of Myo-Inositol Improve the Function and Fertility of Cryopreserved Boar Semen. Antioxidants (Basel). 2023.\n\n\n\n2022\n\nOh D, Choi H, Kim M, Cai L, Lee J, Jawad A, Kim S, Zheng H, Lee G, Jeon Y, Hyun SH. Interleukin-7 enhances in vitro development and blastocyst quality in porcine parthenogenetic embryos. Front Vet Sci. 2022.\nTalha NAH, Jeon Y, Yu IJ. Effect of synthetic cholesterol (Synthechol) supplementation in an egg yolk-free extender on dog sperm cryopreservation. Cryo Letters. 2022."
+  },
+  {
     "objectID": "members.html",
     "href": "members.html",
     "title": "Members",
@@ -14,13 +42,6 @@
     "text": "박성수 (Sungsoo Park)\n- D.V.M., M.S.\n- sungspark@o.cnu.ac.kr"
   },
   {
-    "objectID": "professor.html",
-    "href": "professor.html",
-    "title": "Principal Investigator",
-    "section": "",
-    "text": "Principal Investigator\n\n\n\n\n전유별\n(D.V.M., Ph.D.)\nProfessor of Veterinary Theriogenology\n충남대학교 수의과대학\n\n\n\n\n🎓 학력\n\n박사: 충북대학교 수의과대학 (2011. 3. - 2014. 2.)\n석사: 충북대학교 수의과대학 (2009. 3. - 2011. 2.)\n학사: 충북대학교 수의과대학 (2003. 3. - 2009. 2.)\n\n\n\n🔬 관심분야\n\n보조생식술\n동물 복제\n형질전환동물\n줄기세포\n\n\n\n💼 주요경력\n\n2025. 3. - 현재 충남대학교 수의과대학 부교수\n2017. 9. - 2025. 2. 전북대학교 수의과대학 조교수, 부교수\n2016. 9. - 2017. 8. 존스홉킨스 의과대학 세포공학연구소 연구원\n2014. 3. - 2016. 7. 수암생명공학 연구원\n2009. 2. 수의사면허증 (농림부)"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact & Location",
@@ -28,39 +49,11 @@
     "text": "Contact & Location\n충남대학교 수의산과학 실험실 방문을 환영합니다.\n\n\n\n📍 오시는 길\n충남대학교 수의과대학 부속동물병원 (N13-2)\n주소\n(34134) 대전광역시 유성구 대학로 99, 충남대학교 수의과대학 부속동물병원\n연구실\n동물병원 4층 414호 (Lab)\n동물병원 4층 405호 (PI Office)\n주차\n대학 내 유료 주차 가능\n\n\n✉️ 연락처\n\nPI: 전유별 교수 (ybjeon@cnu.ac.kr)\n실험실장: 박성수 (sungspark@o.cnu.ac.kr)\n\n\n\n\n🗺️ 지도\n\n\n\n\n\n🔗 Partner Laboratory\n\nChungbuk National University - Molecular Genetics Lab (MGL)"
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "최근 5년간 우리 연구실의 주요 연구 성과입니다.\n\n2026\n\nLee S, Yu IJ, Jeon Y. Fetal Bovine Serum Is Essential for Maintaining Viability of Porcine Blastocysts During Extended In Vitro Culture. Reprod Domest Anim. 2026. doi:10.1111/rda.70195\n\n\n\n2024\n\nLee S, Lee SE, Han JI, Lee SC, Jeon Y. Preliminary research on tailored fluid therapy in pigs: comparing customized ionic solutions with Hartmann’s solution. BMC Vet Res. 2024.\nKim E, Yu IJ, Lee J, Jeon Y. Effects of MnTBAP on Porcine Semen Cryopreservation and Capacitation. Antioxidants (Basel). 2024.\nAlmubarak A, Kim E, Yu IJ, Park H, Jeon Y. The Effect of κ-Carrageenan on Porcine Sperm Cryo-Survival. Animals (Basel). 2024.\nLee S, Lee SC, Jeon Y. Analysis of blood composition by porcine breeding cycle. Vet Med Sci. 2024.\n\n\n\n2023\n\nAlmubarak A, Osman R, Lee J, Yu IJ, Jeon Y. Effects of niacin supplementation during in vitro culture on the developmental competence of porcine embryos. Reprod Domest Anim. 2023.\nOsman R, Lee S, Almubarak A, Han JI, Yu IJ, Jeon Y. Antioxidant Effects of Myo-Inositol Improve the Function and Fertility of Cryopreserved Boar Semen. Antioxidants (Basel). 2023.\n\n\n\n2022\n\nOh D, Choi H, Kim M, Cai L, Lee J, Jawad A, Kim S, Zheng H, Lee G, Jeon Y, Hyun SH. Interleukin-7 enhances in vitro development and blastocyst quality in porcine parthenogenetic embryos. Front Vet Sci. 2022.\nTalha NAH, Jeon Y, Yu IJ. Effect of synthetic cholesterol (Synthechol) supplementation in an egg yolk-free extender on dog sperm cryopreservation. Cryo Letters. 2022."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "alumni.html",
-    "href": "alumni.html",
-    "title": "Alumni",
-    "section": "",
-    "text": "졸업 후에도 각자의 위치에서 수의산과학 및 관련 분야의 발전을 위해 힘쓰고 있는 우리 실험실 졸업생들을 소개합니다.\n\n\n\n\n\n\n학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미국 XX대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교\n\n\n\n\n\n\n\n\n\n\n\n학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
-  },
-  {
-    "objectID": "alumni.html#ph.d.-alumni",
-    "href": "alumni.html#ph.d.-alumni",
-    "title": "Alumni",
-    "section": "",
-    "text": "학위: 수의학박사 (2024)\n현재: Sudan University of Science and Technology: Khartoum, SD\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 미국 XX대학교 연구원 (Post-doc)\n\n\n\n\n\n학위: 수의학박사 (2026)\n현재: 차의과학대학교"
-  },
-  {
-    "objectID": "alumni.html#m.s.-alumni",
-    "href": "alumni.html#m.s.-alumni",
-    "title": "Alumni",
-    "section": "",
-    "text": "학위: 수의학석사 (2023)\n현재:\n\n\n\n\n\n\n학위: 수의학석사 (2026)\n현재: 충남대학교 수의과대학 박사과정 재학"
   },
   {
     "objectID": "index.html",
@@ -96,6 +89,13 @@
     "title": "Lab. of Theriogenology",
     "section": "📢 Recent News",
     "text": "📢 Recent News\n\n\nNew Publication\n2026.03 Reproductive Domestic Animals에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.\n\n\nLab Life\n2026.02 김은지, 이성주(이상 박사), 박성수(석사) 졸업생을 배출했습니다.\n\n\nRecruiting\nOngoing\n우리 실험실과 함께 성장할 열정 있는 대학원생 및 학부생 연구원을 모집합니다. 📍 오시는 길 & 연락처"
+  },
+  {
+    "objectID": "professor.html",
+    "href": "professor.html",
+    "title": "Principal Investigator",
+    "section": "",
+    "text": "Principal Investigator\n\n\n\n\n전유별\n(D.V.M., Ph.D.)\nProfessor of Veterinary Theriogenology\n충남대학교 수의과대학\n\n\n\n\n🎓 학력\n\n박사: 충북대학교 수의과대학 (2011. 3. - 2014. 2.)\n석사: 충북대학교 수의과대학 (2009. 3. - 2011. 2.)\n학사: 충북대학교 수의과대학 (2003. 3. - 2009. 2.)\n\n\n\n🔬 관심분야\n\n보조생식술\n동물 복제\n형질전환동물\n줄기세포\n\n\n\n💼 주요경력\n\n2025. 3. - 현재 충남대학교 수의과대학 부교수\n2017. 9. - 2025. 2. 전북대학교 수의과대학 조교수, 부교수\n2016. 9. - 2017. 8. 존스홉킨스 의과대학 세포공학연구소 연구원\n2014. 3. - 2016. 7. 수암생명공학 연구원\n2009. 2. 수의사면허증 (농림부)"
   },
   {
     "objectID": "research.html",
