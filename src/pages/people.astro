@@ -1,5 +1,58 @@
 ---
 import { withBase } from '../utils/paths';
+import { renderMarkdown } from '../utils/markdown';
 import Layout from '../layouts/Layout.astro';
+import JoinOurLab from '../components/JoinOurLab.astro';
+import professor from '../content/professor.md?raw';
+import alumni from '../content/alumni.md?raw';
+// The profile card already contains the portrait, name, degree and affiliation.
+const professorDetails = professor.slice(professor.indexOf('### 학력'));
 ---
-<Layout title="People"><section class="page-intro"><p class="eyebrow">OUR PEOPLE</p><h1>Laboratory Members</h1><p>지도교수 및 대학원생</p></section><section class="content"><div class="subnav"><a href={withBase('/professor/')}>지도교수 상세 소개 ↗</a><a href={withBase('/alumni/')}>졸업생 소개 ↗</a></div><div class="person-grid"><article class="person"><img src={withBase('/images/professor.jpg')} alt="전유별 교수"/><div><small>PRINCIPAL INVESTIGATOR</small><h2>전유별</h2><p>D.V.M., Ph.D.<br/>Professor of Veterinary Theriogenology<br/>충남대학교 수의과대학</p><p><a href="mailto:ybjeon@cnu.ac.kr">ybjeon@cnu.ac.kr</a></p><a href={withBase('/professor/')}>학력 및 주요 경력 ↗</a></div></article><article class="person"><img src={withBase('/images/sungsoo.jpg')} alt="박성수 연구원"/><div><small>PH.D. STUDENT</small><h2>박성수</h2><p>Sungsoo Park · D.V.M., M.S.<br/>박사과정 · 실험실장</p><a href="mailto:sungspark@o.cnu.ac.kr">sungspark@o.cnu.ac.kr</a></div></article></div></section><section class="partner"><p class="eyebrow">JOIN OUR LAB</p><h2>대학원생 및 학부 연구원 모집</h2><p>대학원생 및 학부생 연구원 모집에 관심이 있다면 연락해 주세요.</p><a href={withBase('/contact/')} class="button">연구 참여 문의 ↗</a></section></Layout>
+<Layout title="People">
+  <section class="page-intro">
+    <p class="eyebrow">OUR PEOPLE</p>
+    <h1>Laboratory Members</h1>
+    <p>지도교수 · 실험실장 · 졸업생</p>
+  </section>
+  <div class="content">
+    <nav class="people-sections" aria-label="연구진 바로가기">
+      <a href="#pi">지도교수</a>
+      <a href="#lab-manager">실험실장</a>
+      <a href="#alumni">졸업생</a>
+    </nav>
+    <section id="pi" class="people-section" aria-labelledby="pi-title">
+      <p class="eyebrow">PRINCIPAL INVESTIGATOR</p>
+      <article class="person">
+        <img src={withBase('/images/professor.jpg')} alt="전유별 교수"/>
+        <div>
+          <h2 id="pi-title">전유별</h2>
+          <p>D.V.M., Ph.D.<br/>Professor of Veterinary Theriogenology<br/>충남대학교 수의과대학</p>
+          <a href="mailto:ybjeon@cnu.ac.kr">ybjeon@cnu.ac.kr</a>
+        </div>
+      </article>
+      <div class="prose" set:html={renderMarkdown(professorDetails)}/>
+    </section>
+    <section id="lab-manager" class="people-section" aria-labelledby="manager-title">
+      <p class="eyebrow">LAB MANAGER · PH.D. STUDENT</p>
+      <article class="person">
+        <img src={withBase('/images/sungsoo.jpg')} alt="박성수 연구원"/>
+        <div>
+          <h2 id="manager-title">박성수</h2>
+          <p>Sungsoo Park · D.V.M., M.S.<br/>박사과정 · 실험실장</p>
+          <a href="mailto:sungspark@o.cnu.ac.kr">sungspark@o.cnu.ac.kr</a>
+        </div>
+      </article>
+    </section>
+    <section id="alumni" class="people-section" aria-labelledby="alumni-title">
+      <p class="eyebrow">OUR ALUMNI</p>
+      <h2 id="alumni-title">졸업생</h2>
+      <div class="prose" set:html={renderMarkdown(alumni.replace(/^# Alumni\s*/, ''))}/>
+    </section>
+  </div>
+  <JoinOurLab/>
+</Layout>
+<style>
+  .people-sections { display:flex; position:static; width:auto; flex-wrap:wrap; gap:24px; padding:0 0 24px; margin-bottom:40px; border-bottom:1px solid var(--line); font-size:13px; }
+  .people-sections a { padding:0; }
+  .people-section + .people-section { margin-top:56px; padding-top:40px; border-top:1px solid var(--line); }
+</style>
