@@ -1,6 +1,7 @@
 ---
+import { withBase } from '../utils/paths';
 import Layout from '../layouts/Layout.astro';
-import {marked} from 'marked';
+import { renderMarkdown } from '../utils/markdown';
 import content from '../content/alumni.md?raw';
 ---
-<Layout title="Alumni"><section class="page-intro"><p class="eyebrow">CNU THERIOGENOLOGY LAB</p><h1>Alumni</h1><p>졸업생 학위 및 소속 현황</p></section><div class="content"><div class="subnav"><a href="/people/">연구진 ↗</a><a href="/professor/">지도교수 ↗</a><a href="/alumni/">졸업생 ↗</a></div><article class="prose" set:html={marked.parse(content)}/></div></Layout>
+<Layout title="Alumni"><section class="page-intro"><p class="eyebrow">CNU THERIOGENOLOGY LAB</p><h1>Alumni</h1><p>졸업생 학위 및 소속 현황</p></section><div class="content"><div class="subnav"><a href={withBase('/people/')}>연구진 ↗</a><a href={withBase('/professor/')}>지도교수 ↗</a><a href={withBase('/alumni/')}>졸업생 ↗</a></div><article class="prose" set:html={renderMarkdown(content)}/></div></Layout>

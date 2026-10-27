@@ -13,7 +13,7 @@ npm run build
 npm run preview
 ```
 
-정적 배포 폴더는 `dist/`입니다. Netlify, Cloudflare Pages, GitHub Pages 등에서 사용 가능합니다. 하위 경로에 배포할 경우 Astro base 설정 및 절대 링크 조정이 필요합니다.
+정적 배포 폴더는 `dist/`입니다. Netlify, Cloudflare Pages, GitHub Pages 등에서 사용 가능합니다. `https://cnu-therio.github.io/labpage/` 배포 경로가 설정되어 있습니다. 내부 링크와 이미지는 `src/utils/paths.ts`의 `withBase()`로 경로를 만들고, Markdown은 `renderMarkdown()`으로 렌더링합니다. 저장소 이름을 변경하면 `astro.config.mjs`의 `base`도 변경하세요.
 
 ## 콘텐츠 수정
 

@@ -1,6 +1,7 @@
 ---
+import { withBase } from '../utils/paths';
 import Layout from '../layouts/Layout.astro';
-import {marked} from 'marked';
+import { renderMarkdown } from '../utils/markdown';
 import content from '../content/contact.md?raw';
 ---
-<Layout title="Contact & Location"><section class="page-intro"><p class="eyebrow">CNU THERIOGENOLOGY LAB</p><h1>Contact & Location</h1><p>충남대학교 수의산과학 실험실 방문을 환영합니다.</p></section><div class="content"><div class="subnav"><a href="/people/">연구진 ↗</a><a href="/professor/">지도교수 ↗</a><a href="/alumni/">졸업생 ↗</a></div><article class="prose" set:html={marked.parse(content)}/></div></Layout>
+<Layout title="Contact & Location"><section class="page-intro"><p class="eyebrow">CNU THERIOGENOLOGY LAB</p><h1>Contact & Location</h1><p>충남대학교 수의산과학 실험실 방문을 환영합니다.</p></section><div class="content"><div class="subnav"><a href={withBase('/people/')}>연구진 ↗</a><a href={withBase('/professor/')}>지도교수 ↗</a><a href={withBase('/alumni/')}>졸업생 ↗</a></div><article class="prose" set:html={renderMarkdown(content)}/></div></Layout>

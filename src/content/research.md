@@ -2,6 +2,8 @@
 
 ## Main Research Areas
 
+<span id="area-01"></span>
+
 ### 1. Embryology & In Vitro Development
 
 포유류 배아의 초기 발생과 체외 배양 환경을 연구하며, 배아의 발달률과 품질을 향상시키기 위한 배양 조건 및 생물학적 조절 인자를 분석합니다.
@@ -15,6 +17,8 @@
 - **Embryo Quality Assessment:** 배양 환경 변화에 따른 배아의 형태학적·분자생물학적 품질 평가
     
 
+<span id="area-02"></span>
+
 ### 2. Andrology & Cryopreservation
 
 가축 및 반려동물 정자의 기능과 동결 손상 기전을 연구하고, 항산화제 및 새로운 보존 소재를 이용하여 정자 동결보존 효율을 개선하고자 합니다.
@@ -27,6 +31,8 @@
     
 - **Alternative Cryoprotective Systems:** 개 정자 동결보존에서 난황 대체 소재로서 합성 콜레스테롤(Synthechol)의 적용 가능성 평가
     
+
+<span id="area-03"></span>
 
 ### 3. Organoids, Genome Engineering & Regenerative Medicine
 
