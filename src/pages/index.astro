@@ -1,0 +1,452 @@
+---
+import Layout from '../layouts/Layout.astro';
+import pubs from '../content/publications.json';
+
+const base = import.meta.env.BASE_URL;
+
+const topics = [
+  {
+    id: '01',
+    name: 'Embryology & In Vitro Development',
+    title: '배아 발달 및 체외 배양',
+    description:
+      '포유류 배아의 초기 발생과 체외 배양 환경을 연구하며, 배양 조건과 생물학적 조절 인자가 배아의 발달률과 품질에 미치는 영향을 분석합니다.',
+    methods:
+      'In vitro embryo culture · Developmental assessment · Supplement optimization',
+    evidence:
+      'FBS · Niacin · Interleukin-7',
+    ref:
+      'Reprod Domest Anim, 2026 · Front Vet Sci, 2022'
+  },
+  {
+    id: '02',
+    name: 'Andrology & Cryopreservation',
+    title: '정자 기능 및 동결 보존',
+    description:
+      '가축 및 반려동물 정자의 기능과 동결 손상 기전을 연구하고, 항산화제 및 새로운 보존 소재를 이용하여 동결 후 생존성과 기능을 개선합니다.',
+    methods:
+      'Semen cryopreservation · Oxidative stress control',
+    evidence:
+      'MnTBAP · Myo-Inositol · κ-Carrageenan · Synthechol',
+    ref:
+      'Antioxidants, 2024 · Animals, 2024 · Cryo Letters, 2022'
+  },
+  {
+    id: '03',
+    name: 'Regenerative Medicine',
+    title: '오가노이드·유전자 조절·재생의학',
+    description:
+      '생식기관 및 조직 재생의 분자 기전을 규명하기 위해 organoid, stem cell 및 CRISPR 기반 유전자 조절 기술을 활용합니다.',
+    methods:
+      '3D culture · CRISPRa/CRISPRi · Cellular reprogramming',
+    evidence:
+      'Organoids · Stem cells · Genome engineering',
+    ref:
+      'Current research direction'
+  }
+];
+---
+
+<Layout>
+  <section class="hero scientific-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">
+        COLLEGE OF VETERINARY MEDICINE · CNU
+      </p>
+
+      <h1>
+        Laboratory of<br />
+        Theriogenology
+      </h1>
+
+      <p class="hero-ko">
+        충남대학교 수의산과학 실험실
+      </p>
+
+      <p class="hero-desc">
+        포유류의 번식 생리와 배아 발달을 이해하고,
+        이를 재생의학으로 확장하는 연구를 수행합니다.
+        가축 및 반려동물의 번식 효율 향상과 생식생물학적 기전 규명,
+        그리고 첨단 생명공학 기술을 활용한 재생 및 치료 모델 개발을 목표로 합니다.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button" href={`${base}research/`}>
+          연구 분야 <span>↗</span>
+        </a>
+
+        <a class="text-link" href={`${base}publications/`}>
+          논문 목록 ↗
+        </a>
+      </div>
+
+      <dl class="lab-meta">
+        <div>
+          <dt>PRINCIPAL INVESTIGATOR</dt>
+          <dd>전유별 · D.V.M., Ph.D.</dd>
+        </div>
+
+        <div>
+          <dt>INSTITUTION</dt>
+          <dd>충남대학교 수의과대학</dd>
+        </div>
+      </dl>
+    </div>
+
+    <aside
+      class="research-map"
+      aria-label="연구 대상 및 접근 방법"
+    >
+      <div class="map-header">
+        <span>RESEARCH FRAMEWORK</span>
+        <span>01—03</span>
+      </div>
+
+      <div class="map-row">
+        <span class="map-number">01</span>
+
+        <div>
+          <h2>Embryo development</h2>
+          <p>
+            배양 환경 및 조절 인자
+            → 배아 발달과 품질
+          </p>
+
+          <span class="method-tag">
+            PORCINE EMBRYOS
+          </span>
+        </div>
+      </div>
+
+      <div class="map-row">
+        <span class="map-number">02</span>
+
+        <div>
+          <h2>Sperm cryobiology</h2>
+          <p>
+            동결보존·항산화 조절
+            → 정자 기능 및 생존
+          </p>
+
+          <span class="method-tag">
+            PORCINE & CANINE SPERM
+          </span>
+        </div>
+      </div>
+
+      <div class="map-row">
+        <span class="map-number">03</span>
+
+        <div>
+          <h2>Regenerative biology</h2>
+          <p>
+            오가노이드·줄기세포·유전자 조절
+            → 조직 재생 및 세포 운명 분석
+          </p>
+
+          <span class="method-tag">
+            ORGANOID / CRISPR / STEM CELLS
+          </span>
+        </div>
+      </div>
+
+      <div class="map-footer">
+        REPRODUCTION / DEVELOPMENT / REGENERATION
+      </div>
+    </aside>
+
+    <div class="hero-bottom">
+      <span>
+        REPRODUCTIVE BIOLOGY · DEVELOPMENT · REGENERATIVE MEDICINE
+      </span>
+
+      <a href="#research">
+        연구 개요 ↓
+      </a>
+    </div>
+  </section>
+
+
+  <section
+    id="research"
+    class="section"
+  >
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">
+          01 / RESEARCH AREAS
+        </p>
+
+        <h2>주요 연구 분야</h2>
+      </div>
+
+      <a
+        class="text-link"
+        href={`${base}research/`}
+      >
+        연구 내용 자세히 보기 ↗
+      </a>
+    </div>
+
+    <div class="research-grid">
+      {
+        topics.map((t) => (
+          <article class="research-card">
+            <div class="card-top">
+              <span>{t.id}</span>
+
+              <a
+                href={`${base}research/#area-${t.id}`}
+                aria-label={`${t.title} 상세 보기`}
+              >
+                ↗
+              </a>
+            </div>
+
+            <p class="english">
+              {t.name}
+            </p>
+
+            <h3>
+              {t.title}
+            </h3>
+
+            <p>
+              {t.description}
+            </p>
+
+            <dl class="research-details">
+              <dt>METHODS</dt>
+              <dd>{t.methods}</dd>
+
+              <dt>
+                KEY FACTORS / TECHNOLOGIES
+              </dt>
+              <dd>{t.evidence}</dd>
+            </dl>
+
+            <p class="research-reference">
+              {t.ref}
+            </p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+
+  <section class="section publications-section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">
+          02 / SELECTED PUBLICATIONS
+        </p>
+
+        <h2>주요 논문</h2>
+      </div>
+
+      <a
+        class="text-link"
+        href={`${base}publications/`}
+      >
+        전체 논문 · {pubs.length}편 ↗
+      </a>
+    </div>
+
+    {
+      pubs.slice(0, 3).map((p) => (
+        <a
+          class="pub-row"
+          href={p.doi || `${base}publications/`}
+        >
+          <span class="pub-year">
+            {p.year}
+          </span>
+
+          <div>
+            <h3>
+              {p.title}
+            </h3>
+
+            <p>
+              {p.authors}
+              <br />
+
+              <em>
+                {p.journal}
+              </em>
+
+              {
+                p.doi && (
+                  <span class="doi-label">
+                    {' · '}
+                    DOI
+                  </span>
+                )
+              }
+            </p>
+          </div>
+
+          <span>↗</span>
+        </a>
+      ))
+    }
+  </section>
+
+
+  <section class="people-band">
+    <div>
+      <p class="eyebrow">
+        03 / LABORATORY MEMBERS
+      </p>
+
+      <h2>연구진</h2>
+
+      <p>
+        지도교수 및 대학원생의 연구 배경과
+        연락처를 확인할 수 있습니다.
+      </p>
+
+      <a
+        class="button light"
+        href={`${base}people/`}
+      >
+        연구진 소개 ↗
+      </a>
+    </div>
+
+    <a
+      href={`${base}professor/`}
+      class="portrait-feature"
+    >
+      <img
+        src={`${base}images/professor.jpg`}
+        alt="전유별 교수"
+        loading="lazy"
+      />
+
+      <div>
+        <small>
+          PRINCIPAL INVESTIGATOR
+        </small>
+
+        <h3>
+          전유별
+          <span>
+            D.V.M., Ph.D.
+          </span>
+        </h3>
+
+        <p>
+          Professor of Veterinary Theriogenology
+        </p>
+
+        <p>
+          보조생식술 · 동물 복제 · 형질전환동물 · 줄기세포
+        </p>
+      </div>
+    </a>
+  </section>
+
+
+  <section class="section news-section">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">
+          04 / NEWS & ANNOUNCEMENTS
+        </p>
+
+        <h2>연구실 소식</h2>
+      </div>
+    </div>
+
+    <div class="news-grid">
+      <article>
+        <span class="news-date">
+          2026.03 / AWARD
+        </span>
+
+        <h3>
+          한국발생생물학회 우수포스터상 수상
+        </h3>
+
+        <p>
+          박성수 학생이 2026년 한국발생생물학회에서
+          우수포스터상을 수상했습니다.
+        </p>
+      </article>
+
+      <article>
+        <span class="news-date">
+          2026.03 / PUBLICATION
+        </span>
+
+
+        <h3>
+          2026년 2월 학위 취득
+        </h3>
+
+        <p>
+          박사: 김은지, 이성주
+          <br />
+          석사: 박성수
+        </p>
+
+        <a href={`${base}alumni/`}>
+          졸업생 현황 ↗
+        </a>
+      </article>
+
+      <article>
+        <span class="news-date">
+          RECRUITMENT
+        </span>
+
+        <h3>
+          대학원생 및 학부 연구원 모집
+        </h3>
+
+        <p>
+          번식생물학, 발생학, 줄기세포 및 재생의학 연구에
+          관심 있는 대학원생과 학부 연구원을 모집합니다.
+        </p>
+
+        <a href={`${base}contact/`}>
+          모집 문의 ↗
+        </a>
+      </article>
+    </div>
+  </section>
+
+
+  <section class="partner">
+    <div>
+      <p class="eyebrow">
+        RESEARCH COLLABORATION
+      </p>
+
+      <h2>공동 연구</h2>
+    </div>
+
+    <div>
+      <h3>
+        충북대학교 약학대학 분자유전학 연구실
+      </h3>
+
+      <p>
+        CBNU Molecular Genetics Lab과
+        줄기세포·후성유전학·유전자 발현 조절 분야의
+        전문성을 공유하며 공동 연구를 수행합니다.
+        발생·생식생물학과 분자유전학적 접근을 결합하여
+        세포 운명 조절과 조직 재생의 분자 기전을 연구합니다.
+      </p>
+
+      <a
+        class="text-link"
+        href="https://sites.google.com/view/cbnumgl/home"
+      >
+        CBNU MGL ↗
+      </a>
+    </div>
+  </section>
+</Layout>

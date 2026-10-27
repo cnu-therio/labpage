@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {marked} from 'marked';
+import content from '../content/research.md?raw';
+---
+<Layout title="Research"><section class="page-intro"><p class="eyebrow">OUR SCIENCE</p><h1>Research</h1><p>Embryology, Andrology & Regenerative Medicine<br/>배아 발달 · 정자 동결 보존 · 수의 재생의학</p></section><div class="content"><article class="prose" set:html={marked.parse(content)}/><a class="button" href="/publications/">관련 논문 전체 보기 ↗</a></div></Layout>

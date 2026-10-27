@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {marked} from 'marked';
+import content from '../content/professor.md?raw';
+---
+<Layout title="Principal Investigator"><section class="page-intro"><p class="eyebrow">CNU THERIOGENOLOGY LAB</p><h1>Principal Investigator</h1><p>전유별 교수 · 학력 및 주요 경력</p></section><div class="content"><div class="subnav"><a href="/people/">연구진 ↗</a><a href="/professor/">지도교수 ↗</a><a href="/alumni/">졸업생 ↗</a></div><article class="prose" set:html={marked.parse(content)}/></div></Layout>
