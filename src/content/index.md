@@ -48,7 +48,9 @@ Molecular genetics · Epigenetic regulation · Gene expression analysis
 
 
 ### New Publication
-**2026.03** *Reproductive Domestic Animals*에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.
+**2026.11.20** SkQ1의 미토콘드리아 산화환원 균형 조절을 통한 돼지 난자 성숙 및 배아 발달능 개선에 관한 공동 연구가 *Cell Biology and Toxicology*에 온라인 출간되었습니다. [논문 원문](https://doi.org/10.1007/s10565-026-10371-0)
+
+**2026.03** *Reproduction in Domestic Animals*에 배아 배양액 내 FBS의 중요성에 관한 논문이 게재되었습니다.
 
 
 

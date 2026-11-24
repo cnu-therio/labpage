@@ -1,7 +1,8 @@
 
-최근 5년간 우리 연구실의 주요 연구 성과입니다.
+우리 연구실의 주요 연구 성과입니다.
 
 ### 2026
+- **Kim E**, Kim B, Yu IJ, Park H, **Jeon Y**. SkQ1 improves competence of oocyte maturation by regulating mitochondrial redox balance. *Cell Biol Toxicol*. 2026. Published online 20 November 2026. [doi:10.1007/s10565-026-10371-0](https://doi.org/10.1007/s10565-026-10371-0)
 - **Lee S**, Yu IJ, **Jeon Y**. Fetal Bovine Serum Is Essential for Maintaining Viability of Porcine Blastocysts During Extended In Vitro Culture. *Reprod Domest Anim*. 2026. [doi:10.1111/rda.70195](https://doi.org/10.1111/rda.70195)
 
 ### 2024

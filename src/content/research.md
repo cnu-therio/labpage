@@ -6,9 +6,11 @@
 
 ### 1. Embryology & In Vitro Development
 
-포유류 배아의 초기 발생과 체외 배양 환경을 연구하며, 배아의 발달률과 품질을 향상시키기 위한 배양 조건 및 생물학적 조절 인자를 분석합니다.
+포유류 난자의 성숙과 배아의 초기 발생 및 체외 배양 환경을 연구하며, 난자와 배아의 발달능을 향상시키기 위한 배양 조건 및 생물학적 조절 인자를 분석합니다.
 
 **주요 연구 성과**
+
+- **Oocyte Maturation & Mitochondrial Redox Balance:** 미토콘드리아 표적 항산화제 SkQ1을 이용한 돼지 난자의 산화환원 균형 유지, 난자 성숙 및 배아 발달능 개선 ([Cell Biol Toxicol, 2026](https://doi.org/10.1007/s10565-026-10371-0))
 
 - **Extended Embryo Culture:** 장기간 체외 배양 과정에서 돼지 배반포의 생존성과 발달능 유지에 대한 fetal bovine serum(FBS)의 역할 규명
     
